@@ -1,6 +1,6 @@
 # App Details Dataset Sample (Google Play)
 ## Dataset Description
-'''
+```
 +---------------------+----------+
 | category_id         | count(*) |
 +---------------------+----------+
@@ -54,4 +54,4 @@
 | VIDEO_PLAYERS       |      194 |
 | WEATHER             |      397 |
 +---------------------+----------+
-'''
+```
