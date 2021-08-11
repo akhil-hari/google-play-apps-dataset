@@ -5,7 +5,7 @@ play store
 In this dataset t
 ```
 +---------------------+----------+
-| * Category *          |* App Count *|
+| *Category*          |*App Count*|
 +---------------------+----------+
 | ART_AND_DESIGN      |      146 |
 | AUTO_AND_VEHICLES   |       55 |
