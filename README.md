@@ -1,4 +1,6 @@
 # App Details Dataset Sample (Google Play)
+This is a collection of xxxxx apps listd on google
+play store
 ## Dataset Description
 ```
 +---------------------+----------+
@@ -55,3 +57,4 @@
 | WEATHER             |      397 |
 +---------------------+----------+
 ```
+##usage
