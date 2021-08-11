@@ -2,9 +2,10 @@
 This is a collection of xxxxx apps listd on google
 play store
 ## Dataset Description
+In this dataset t
 ```
 +---------------------+----------+
-| category_id         | count(*) |
+| *Category*          |*App Count*|
 +---------------------+----------+
 | ART_AND_DESIGN      |      146 |
 | AUTO_AND_VEHICLES   |       55 |
@@ -57,4 +58,4 @@ play store
 | WEATHER             |      397 |
 +---------------------+----------+
 ```
-##usage
+## usage
