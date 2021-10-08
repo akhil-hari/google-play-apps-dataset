@@ -1,8 +1,8 @@
 # App Details Dataset Sample (Google Play)
-This is a collection of xxxxx apps listd on google
+This is a collection of 20165 random apps listed on google.
 play store
 ## Dataset Description
-In this dataset t
+The dataset consists of apps  distributed across following 49 categories.
 ```
 +---------------------+----------+
 | *Category*          |*App Count*|
@@ -59,3 +59,8 @@ In this dataset t
 +---------------------+----------+
 ```
 ## usage
+### loading dataset
+```
+import pandas
+dataset=pandas.read_csv('app_details.csv')
+```
