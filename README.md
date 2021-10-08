@@ -106,4 +106,22 @@ min        0.000000   0.000000e+00
 max        5.000000   1.225554e+08
 
 ```
+### Display First 10 Entries
+```
+dataset.head(10)
+```
+##### Output
+```
+0  aademo.superawesome.tv.awesomeadsdemo2  ...  2021-08-05 18:07:01
+1               aasuited.net.contrepetrie  ...  2021-08-04 15:26:04
+2                   aasuited.net.mrandmrs  ...  2021-08-06 16:53:36
+3                       aasuited.net.word  ...  2021-08-07 10:36:54
+4                       ab.exchangeratege  ...  2021-08-07 16:00:01
+5                       ab.exchangeratekg  ...  2021-08-02 10:03:49
+6                        abc.kids.edu.pro  ...  2021-08-05 18:50:45
+7         abdelrahman.wifianalyzerpremium  ...  2021-08-02 19:51:08
+8            abdlrhmanshehata.yatadabaron  ...  2021-08-07 16:33:31
+9                              abraj.live  ...  2021-08-05 20:00:39
 
+```
+Find more info on how to use pandas on datasets => [pandas tutorials](https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduction-for-beginners/)
