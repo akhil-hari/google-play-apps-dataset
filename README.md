@@ -64,3 +64,46 @@ The dataset consists of apps  distributed across following 49 categories.
 import pandas
 dataset=pandas.read_csv('app_details.csv')
 ```
+### Dispalying Info
+```
+dataset.info
+```
+##### Output
+```
+#   Column                Non-Null Count  Dtype  
+---  ------                --------------  -----  
+ 0   id                    20165 non-null  object 
+ 1   name                  20165 non-null  object 
+ 2   developer             20165 non-null  object 
+ 3   category_id           20165 non-null  object 
+ 4   rating                20165 non-null  float64
+ 5   number_rating         20165 non-null  int64  
+ 6   last_app_update       20165 non-null  object 
+ 7   current_version       20165 non-null  object 
+ 8   size                  20165 non-null  object 
+ 9   approx_installs       20165 non-null  object 
+ 10  content_rating        20165 non-null  object 
+ 11  details_collected_on  20165 non-null  object 
+dtypes: float64(1), int64(1), object(10)
+memory usage: 1.8+ MB
+
+
+```
+### Summery of Data
+```
+dataset.describe()
+```
+##### Output
+```
+            rating  number_rating
+count  20165.000000   2.016500e+04
+mean       4.072809   8.415572e+04
+std        0.943172   1.126332e+06
+min        0.000000   0.000000e+00
+25%        4.000000   1.810000e+02
+50%        4.300000   1.568000e+03
+75%        4.500000   1.302400e+04
+max        5.000000   1.225554e+08
+
+```
+
