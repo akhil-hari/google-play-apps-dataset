@@ -124,4 +124,5 @@ dataset.head(10)
 9                              abraj.live  ...  2021-08-05 20:00:39
 
 ```
-Find more info on how to use pandas on datasets => [pandas tutorials](https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduction-for-beginners/)
+Find more info on how to use pandas on datasets => [Pandas Tutorial-GeekForGeeks](https://www.geeksforgeeks.org/introduction-to-pandas-in-python/)
+
