@@ -126,3 +126,43 @@ dataset.head(10)
 ```
 Find more info on how to use pandas on datasets => [Pandas Tutorial-GeekForGeeks](https://www.geeksforgeeks.org/introduction-to-pandas-in-python/)
 
+## Script used to scrap data
+app_details.py has two functions:<br/>
+app_details(id_string)=><br/>
+list_ids(id_string)=><br/>
+ 
+###### Sample output of both functions on id of Netflix App 
+```
+>>> from pprint import pprint
+>>> from app_details import list_ids
+>>> from app_details import app_details
+>>> 
+>>> 
+>>> pprint(app_details('com.netflix.mediaclient'))
+{'Installs': '1,000,000,000+',
+ 'category': 'Entertainment',
+ 'category_id': 'ENTERTAINMENT',
+ 'content_rating': 'Teen',
+ 'current_version': 'Varies with device',
+ 'developer': 'Netflix, Inc.',
+ 'id': 'com.netflix.mediaclient',
+ 'name': 'Netflix',
+ 'number_ratings': '12,151,890',
+ 'rating': '4.3',
+ 'size': 'Varies with device',
+ 'updated': 'October 7, 2021'}
+>>> 
+>>> 
+>>> pprint(list_ids('com.netflix.mediaclient'))
+{'com.amazon.avod.thirdpartyclient',
+ 'com.disney.disneyplus',
+ 'com.instagram.android',
+ 'com.netflix.Speedtest',
+ 'com.netflix.android_vr',
+ 'com.netflix.ninja',
+ 'com.netflix.stickers',
+ 'com.netflix.stickersvaleria',
+ 'com.spotify.music',
+ 'com.zhiliaoapp.musically'}
+```
+
