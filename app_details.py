@@ -6,7 +6,7 @@ from pprint import pprint
 
 #################################################
 #################################################
-####### Written by Akhil Hari         ###########
+####### Written by Akhil H Nair       ###########
 ####### https://github.com/akhil-hari ###########
 #################################################
 #################################################
@@ -108,7 +108,7 @@ def list_ids(id_string):
 
 
 if __name__=='__main__':
-	url='com.google.android.googlequicksearchbox'
+	url='com.google.android.googlequicksearchbox' #default input
 	try:
 		url=sys.argv[1]
 	except BaseException:
