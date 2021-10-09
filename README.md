@@ -124,14 +124,26 @@ dataset.head(10)
 9                              abraj.live  ...  2021-08-05 20:00:39
 
 ```
-Find more info on how to use pandas on datasets => [Pandas Tutorial-GeekForGeeks](https://www.geeksforgeeks.org/introduction-to-pandas-in-python/)
+Find more info on how to use pandas on datasets => [Python Pandas Tutorial - GeekForGeeks](https://www.geeksforgeeks.org/introduction-to-pandas-in-python/)
 
 ## Script used to scrap data
-app_details.py has two functions:<br/>
-app_details(id_string)=><br/>
-list_ids(id_string)=><br/>
+To use the script `app_details.py` you must have <br/>
+* Requests
+ ```
+ pip install requests
+ ```
+ * Beautiful Soup 4
+ ```
+ pip install beautifulsoup4
+ ```
+ <br/>
+`app_details.py` has two functions:<br/>
+
+>`app_details(id_string)` => This function collects the details of app from its google play page and returns a dictnory if everything goes well.<br/>
+>
+>`list_ids(id_string)` => This function list out Ids of related apps from an app's google play page and returns a list if everything goes well.<br/>
  
-###### Sample output of both functions on id of Netflix App 
+###### Sample output of both functions on id of Netflix App  using python pprint function
 ```
 >>> from pprint import pprint
 >>> from app_details import list_ids
@@ -163,6 +175,11 @@ list_ids(id_string)=><br/>
  'com.netflix.stickers',
  'com.netflix.stickersvaleria',
  'com.spotify.music',
- 'com.zhiliaoapp.musically'}
+ 'com.zhiliaoapp.musically'}​
+
+```
+the script can also be tested by running the script fom terminal and  passing the id of the app as commandline argument after the script name
+```
+python app_details.py  com.netflix.mediaclient
 ```
 
