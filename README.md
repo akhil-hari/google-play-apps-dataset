@@ -140,9 +140,11 @@ To use the script `app_details.py` you must have <br/>
  
 `app_details.py` has two functions:<br/>
 
->`app_details(id_string)` => This function collects the details of app from its google play page and returns a dictnory if everything goes well.<br/>
+>`app_details(id_string)` => This function collects the details of app from its google play page and returns a dictionary if everything goes well.<br/>
 >
 >`list_ids(id_string)` => This function list out Ids of related apps from an app's google play page and returns a list if everything goes well.<br/>
+
+Both functions return `None` if an error occured during collecting data.
  
 ###### Sample output of both functions on id of Netflix App  using python pprint function
 ```
