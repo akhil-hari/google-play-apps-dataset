@@ -137,6 +137,7 @@ To use the script `app_details.py` you must have <br/>
  pip install beautifulsoup4
  ```
  <br/>
+ 
 `app_details.py` has two functions:<br/>
 
 >`app_details(id_string)` => This function collects the details of app from its google play page and returns a dictnory if everything goes well.<br/>
