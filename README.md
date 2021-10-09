@@ -1,4 +1,4 @@
-# App Details Dataset Sample (Google Play)
+# Google Play Apps Dataset
 This is a collection of 20165 random apps listed on google.
 play store
 ## Dataset Description
